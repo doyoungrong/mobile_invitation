@@ -7866,3 +7866,12 @@ video {
   max-width: 100%;
   height: auto;
 }
+
+
+
+/* Figma 변환된 고정폭(393px)이 viewport를 넘는 문제 응급처치 */
+@layer utilities {
+  .w-\[393px\] {
+    width: 100% !important;
+  }
+}
