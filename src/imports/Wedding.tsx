@@ -1051,10 +1051,10 @@ function WeDoyoungLetter() {
 function WeDoyoung() {
   return (
     <div className="absolute contents left-0 top-[5180px]" data-name="We_Doyoung">
-      <div className="absolute h-[767px] left-0 top-[5201px] w-full" data-name="We_Doyoung_Photo">
+      <div className="absolute h-[767px] left-0 top-[5201px] w-[393px]" data-name="We_Doyoung_Photo">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgWeDoyoungPhoto} />
       </div>
-      <div className="absolute h-[25px] left-0 top-[5180px] w-full" data-name="We_Doyoung_Photo_Plus">
+      <div className="absolute h-[25px] left-0 top-[5180px] w-[393px]" data-name="We_Doyoung_Photo_Plus">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <img alt="" className="absolute h-[12787.8%] left-0 max-w-none top-[-2.23%] w-full" src={imgWeDoyoungPhoto} />
         </div>
@@ -2010,10 +2010,10 @@ function WeJunsungLetter() {
 function WeJunsung() {
   return (
     <div className="absolute contents left-0 top-[4356px]" data-name="We_Junsung">
-      <div className="absolute h-[767px] left-0 top-[4413px] w-full" data-name="We_Junsung_Photo">
+      <div className="absolute h-[767px] left-0 top-[4413px] w-[393px]" data-name="We_Junsung_Photo">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgWeJunsungPhoto} />
       </div>
-      <div className="absolute h-[68px] left-0 top-[4356px] w-full" data-name="We_Junsung_Photo_Plus">
+      <div className="absolute h-[68px] left-0 top-[4356px] w-[393px]" data-name="We_Junsung_Photo_Plus">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <img alt="" className="absolute h-[6400%] left-0 max-w-none top-[-4.17%] w-full" src={imgWeJunsungPhoto} />
         </div>
@@ -2700,7 +2700,7 @@ function ParentsJunsung() {
 function Parents() {
   return (
     <div className="absolute contents left-0 top-[2176px]" data-name="Parents">
-      <div className="absolute h-[1890px] left-0 top-[2176px] w-full" data-name="Parents_Background">
+      <div className="absolute h-[1890px] left-0 top-[2176px] w-[393px]" data-name="Parents_Background">
         <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 393 1890">
           <path d="M0 0H393V1890H0V0Z" fill="var(--fill-0, #95AB53)" id="Parents_Background" />
         </svg>
@@ -2927,7 +2927,7 @@ function SubDecoTitle() {
 function Sub() {
   return (
     <div className="absolute contents left-0 top-[637px]" data-name="Sub">
-      <div className="absolute bg-[#0a0909] h-[1058px] left-0 top-[637px] w-full" data-name="Sub_Background" />
+      <div className="absolute bg-[#0a0909] h-[1058px] left-0 top-[637px] w-[393px]" data-name="Sub_Background" />
       <div className="absolute h-[490px] left-0 top-[1686px] w-[392.024px]" data-name="Sub_Photo">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgSubPhoto} />
       </div>
@@ -2955,12 +2955,12 @@ function Sub() {
 function Main() {
   return (
     <div className="absolute contents left-0 top-0" data-name="Main">
-      <div className="absolute h-[665px] left-0 top-0 w-full" data-name="Main_Photo">
+      <div className="absolute h-[665px] left-0 top-0 w-[393px]" data-name="Main_Photo">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <img alt="" className="absolute h-[107.22%] left-0 max-w-none top-0 w-[100.01%]" src={imgMainPhoto} />
         </div>
       </div>
-      <div className="absolute h-[132px] left-0 shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] top-[537px] w-full" data-name="Main_Deco_Bottom" style={{ backgroundImage: "linear-gradient(1.125116deg, rgb(10, 9, 9) 4.7008%, rgba(10, 9, 9, 0.65) 46.5%, rgba(10, 9, 9, 0) 94.659%)" }} />
+      <div className="absolute h-[132px] left-0 shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] top-[537px] w-[393px]" data-name="Main_Deco_Bottom" style={{ backgroundImage: "linear-gradient(1.125116deg, rgb(10, 9, 9) 4.7008%, rgba(10, 9, 9, 0.65) 46.5%, rgba(10, 9, 9, 0) 94.659%)" }} />
       <div className="-translate-x-1/2 absolute font-['GFS_Didot:Regular',sans-serif] leading-[19px] left-[196px] not-italic text-[#b0b37f] text-[15px] text-center top-[598px] whitespace-nowrap">
         <p className="mb-0">2026.04.25 SAT 12:30PM</p>
         <p>TRADINOI</p>
