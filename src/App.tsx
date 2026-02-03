@@ -62,7 +62,7 @@ export default function App() {
       {/* ✅ 393 기준 디자인을 "모바일이면 항상 화면 폭에 꽉 차게(확대 포함)" 스케일 */}
       <StageScaler designWidth={393}>
         {/* StageScaler가 width/scale을 담당하니 여기선 transform/width 지정하지 말기 */}
-        <div className="relative bg-white shadow-lg">
+        <div className="relative bg-white shadow-lg overflow-hidden">
           <Wedding />
 
           {/* Overlay for music buttons (좌표는 393 기준 그대로 둬도 StageScaler가 같이 스케일함) */}
