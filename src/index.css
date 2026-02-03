@@ -7839,3 +7839,30 @@ body {
   inherits: false;
   initial-value: 0 0 #0000;
 }
+
+
+/* ================================
+   모바일 가로 여백(흰 영역) 제거용
+   ================================ */
+
+/* html, body는 실제 화면 너비를 기준으로 */
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* React 루트 컨테이너 */
+#root {
+  width: 100%;
+  max-width: 100%;
+  min-height: 100dvh;
+  overflow-x: hidden;
+}
+
+/* 혹시 모를 이미지/미디어 오버플로우 방지 */
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
