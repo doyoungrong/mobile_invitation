@@ -2955,12 +2955,12 @@ function Sub() {
 function Main() {
   return (
     <div className="absolute contents left-0 top-0" data-name="Main">
-      <div className="absolute h-[665px] left-0 top-0 w-[393px]" data-name="Main_Photo">
+      <div className="absolute h-[665px] left-0 top-0 w-full" data-name="Main_Photo">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <img alt="" className="absolute h-[107.22%] left-0 max-w-none top-0 w-[100.01%]" src={imgMainPhoto} />
         </div>
       </div>
-      <div className="absolute h-[132px] left-0 shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] top-[537px] w-[393px]" data-name="Main_Deco_Bottom" style={{ backgroundImage: "linear-gradient(1.125116deg, rgb(10, 9, 9) 4.7008%, rgba(10, 9, 9, 0.65) 46.5%, rgba(10, 9, 9, 0) 94.659%)" }} />
+      <div className="absolute h-[132px] left-0 shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] top-[537px] w-full" data-name="Main_Deco_Bottom" style={{ backgroundImage: "linear-gradient(1.125116deg, rgb(10, 9, 9) 4.7008%, rgba(10, 9, 9, 0.65) 46.5%, rgba(10, 9, 9, 0) 94.659%)" }} />
       <div className="-translate-x-1/2 absolute font-['GFS_Didot:Regular',sans-serif] leading-[19px] left-[196px] not-italic text-[#b0b37f] text-[15px] text-center top-[598px] whitespace-nowrap">
         <p className="mb-0">2026.04.25 SAT 12:30PM</p>
         <p>TRADINOI</p>
@@ -2973,7 +2973,7 @@ function Main() {
         <p className="font-['Noto_Sans_KR:Regular',sans-serif] font-normal mb-0 text-[12px]">신부</p>
         <p className="font-['Noto_Sans_KR:Bold',sans-serif] font-bold text-[13px]">김도영</p>
       </div>
-      <div className="absolute h-[119px] left-[39px] top-[122px] w-[314px]" data-name="Main_Letter_Top">
+      <div className="absolute h-[119px] left-[39px] top-[122px] w-full" data-name="Main_Letter_Top">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgMainLetterTop} />
       </div>
     </div>
