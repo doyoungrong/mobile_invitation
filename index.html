@@ -21,10 +21,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Music Play Pause Toggle</title>
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden; /* 가로 스크롤 방지 */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      }
+      #root {
+        width: 100%;
+        max-width: 480px; /* 모바일 화면 폭 제한 */
+      }
+    </style>
   </head>
-
-  <body class="overflow-x-hidden flex justify-center items-center min-h-screen">
-    <div id="root" class="w-full max-w-[480px]"></div>
+  <body>
+    <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
+
