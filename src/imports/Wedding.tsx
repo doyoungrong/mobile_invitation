@@ -2973,7 +2973,7 @@ function Main() {
         <p className="font-['Noto_Sans_KR:Regular',sans-serif] font-normal mb-0 text-[12px]">신부</p>
         <p className="font-['Noto_Sans_KR:Bold',sans-serif] font-bold text-[13px]">김도영</p>
       </div>
-      <div className="absolute h-[119px] left-[39px] top-[122px] w-full" data-name="Main_Letter_Top">
+      <div className="absolute h-[119px] left-[39px] top-[122px] w-[314px]" data-name="Main_Letter_Top">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgMainLetterTop} />
       </div>
     </div>
