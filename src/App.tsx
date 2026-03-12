@@ -7,8 +7,8 @@ import YoutubeSection from "./components/YoutubeSection";
 import WeSection from "./components/WeSection";
 import GallerySection from "./components/GallerySection";
 import CalendarMapTitleSection from "./components/CalendarMapTitleSection";
-import KakaoMapSection from "./components/KakaoMapSection";
-import MapSection from "./components/MapSection";
+// import KakaoMapSection from "./components/KakaoMapSection";
+// import MapSection from "./components/MapSection";
 import GuestSection from "./components/GuestSection";
 import InvitationSvg from "./components/InvitationSvg";
 import ShareSection from "./components/ShareSection";
@@ -17,7 +17,7 @@ import subPhoto from "./assets/Sub_Photo.jpg";
 
 export default function App() {
   // 0: Main, 1: SubSection, 2: SubPhoto, 3: Parents, 4: Youtube, 5: We, 6: Gallery,
-  // 7: CalendarTitle, 8: KakaoMap, 9: Map, 10: Guest, 11: InvitationSvg, 12: Share
+  // 7: CalendarTitle, 8: Guest, 9: InvitationSvg, 10: Share
   const [step, setStep] = useState(0);
 
   // 페이지 진입 시 무조건 맨 위 고정 (스크롤 점프 방지)
@@ -94,27 +94,17 @@ export default function App() {
         <CalendarMapTitleSection />
       )}
 
-      {/* 8) KakaoMapSection */}
-      {step >= 3 && (
-        <KakaoMapSection />
-      )}
-
-      {/* 9) MapSection */}
-      {step >= 3 && (
-        <MapSection />
-      )}
-
-      {/* 10) GuestSection */}
+      {/* 8) GuestSection */}
       {step >= 3 && (
         <GuestSection />
       )}
 
-      {/* 11) InvitationSvg */}
+      {/* 9) InvitationSvg */}
       {step >= 3 && (
         <InvitationSvg />
       )}
 
-      {/* 12) ShareSection */}
+      {/* 10) ShareSection */}
       {step >= 3 && (
         <ShareSection />
       )}
